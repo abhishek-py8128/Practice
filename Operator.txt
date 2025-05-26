@@ -1,0 +1,52 @@
+1. =    Equal to
+2. <    Less than
+3. >    Greater than
+4. <=   Less than or equal to
+5. >=   Greater than or equal to
+6. <>   Not equal to
+7. !=   Not equal to
+
+8. LIKE  Specific Patters Are Check ---- suppose Match Return Matched Value Record.
+   % ----> Represent Zero, Single Or Multiple Character.
+   _ ----> Represent One Single Character.
+
+9. ILIKE   Same Work As a Like Operator. But One Different ---- Different Is ---> Not Case Sensitive.
+
+10. AND, OR ---> logical Operator.
+
+11. IN Operator.
+    ---> Used To compare a column against a set of values (iterable), and returns rows that match any value in that set.
+
+12. BETWEEN Operator.
+    ---> between operator are used to set of Particular column range.
+
+13. IS NULL Operator.
+    ---> Check Kare Che Column ne Nnder row ne value Null Nathi ne.
+
+14. SELECT DISTINCT Statement.
+---> jyare column unique Column or Column ne value joti hoy tyare use thay che.
+
+Example :
+* <> and != Are same result print :
+---> means this Check for value are not same.
+    Ex. SELECT * FROM cars
+        WHERE year != 1975;
+
+* LIKE Operator
+--->    Supported Only ---> Character Content.
+        ---- Like Operator Are ---> Case Sensitive. ----
+    Ex. SELECT * FROM cars
+        WHERE model LIKE 'm%';
+
+        'A%' ---> Aglthi thi letter check karse.
+        '%A' ---> Pachl thi letter check karse.
+        
+
+* BETWEEN Operator.
+---> Ex. SELECT * FROM cars
+        WHERE year BETWEEN 1970 AND 1980;
+
+* IS NULL Operator.
+---> Ex.
+        SELECT * FROM cars
+        WHERE model IS NULL;
