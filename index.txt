@@ -52,3 +52,4 @@ WHERE table_name = 'cars' AND column_name = 'price';
 How To Delete For ---- Column Or ---- Data-Base.
 1. Delete Column ----> Alter Tables After Drop COLUMN Column_name
 2. Delete Data-Base ---> Drop Table table_name
+
