@@ -50,4 +50,3 @@ Example :
 ---> Ex.
         SELECT * FROM cars
         WHERE model IS NULL;
-
