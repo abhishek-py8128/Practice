@@ -1,2 +1,2 @@
 print('Python Developer / Python Engineer')
-print('Django')
+print('Django Developer')
